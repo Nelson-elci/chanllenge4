@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order-summary-component-main</title>
+    <link rel="icon" type="png/jpg" sizes="32*32" href="images/favicon-32x32.png">
+    <style>
+        body{
+            margin: 0px;
+            text-align: center;
+            font-size: 18px;
+            background-color: rgb(230, 230, 255);
+            background-image: url(images/pattern-background-desktop.svg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: contain;
+            font-family: Arial, Helvetica, sans-serif;   
+            
+        }
+        #mainbox{
+           background-color: rgb(255, 255, 255);
+           width: 470px;
+           height: 720px;
+           margin: auto;
+           margin-top: 115px;
+           border-radius: 30px;
+        }
+       #image1 img{
+        border-radius: 20px 20px 0px 0px;
+       }
+       h2{
+        margin-top: 50px;
+        font-size: 40px;
+       }
+       p{
+        font-size: 15px;
+        word-spacing: 0px;
+        letter-spacing: 0.5px;
+        line-height: 20px;
+        color: rgb(110, 110, 110);
+       }
+       #music{
+        background-color: rgb(244, 244, 255);
+        width: 370px;
+        height: 90px;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 35px;
+       }
+       #music img{
+        margin-top: 20px;
+        float: left;
+        margin-left: 20px;
+       }
+       #music b{
+        position: relative;
+        top: 20px;
+        right: 65px;
+        font-size: 20px;
+        color: black;
+       }
+       #music span{
+        position: relative;
+        top: 25px;
+        right: 41px;
+        color: rgb(110, 110, 110);
+       }
+       #music a:link, :visited{
+        color: rgb(68, 0, 255);
+        position: relative;
+        left: 50px;
+        top: 15px;
+       }
+       button {
+        margin-top: 40px;
+        border: none;
+        background-color: rgb(66, 4, 236);
+        width: 370px;
+        height: 60px;
+        border-radius: 10px;
+        color: white;
+        font-size: 18px;
+        box-shadow:  0px 15px 15px rgba(32, 0, 58, 0.3);
+       }
+    
+        b{
+        position: relative;
+        top: 30px;
+        color: rgb(110, 110, 110);
+        font-size: 15px;
+       }
+     
+       #cancel a:link{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+       }
+       .attribution{
+        margin-top: 20px;
+        font-size: 12px;
+       }
+       .attribution a:link, :visited{
+        text-decoration: none;
+        color: blue;
+       }
+       .attribution a:hover{
+        color: rgb(46, 46, 255);
+       }
+    </style>
+</head>
+<body>
+    <div id="mainbox">
+
+        <div id="image1">
+            <img src="images/illustration-hero.svg" width="470px">
+        </div>
+
+        <h2>Order Summary</h2>
+        <p>
+            You can now listen to millions of songs,<br> audiobooks, and podcasts on any 
+            device<br> anywhere you like!
+        </p>
+        <div id="music">
+            <img src="images/icon-music.svg">
+            <b>Annual Plan</b> 
+            <br><span>$59.99/year</span>
+
+            <a href="#">Change</a>
+        </div>
+        <button>
+            Proceed to Payment
+        </button>
+        <br>
+        <div id="cancel">
+            <b>Cancel Order</b>
+        </div>
+    </div>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        <br>Coded by <a href="#">Nelson</a>.
+      </div>
+    
+</body>
+</html>
